@@ -525,7 +525,7 @@
 }
 
 .checkbox-circle:checked {
-  background-image: url('C:/Users/Heli/Desktop/Heli/React/fmx-test/src/assets/icons/_Checkbox base.svg');
+  background-image: url('../../assets/icons/_Checkbox base.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
