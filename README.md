@@ -1,5 +1,6 @@
-![Overview Tab-1](C:\Users\Heli\Desktop\Heli\React\fmx-test\results\1.png)
-![Overview Tab-1](C:\Users\Heli\Desktop\Heli\React\fmx-test\results\2.png)
-![Modules Tab-1](C:\Users\Heli\Desktop\Heli\React\fmx-test\results\3.png)
-![Modules Tab-1](C:\Users\Heli\Desktop\Heli\React\fmx-test\results\4.png)
-![Selected Modules Object](C:\Users\Heli\Desktop\Heli\React\fmx-test\results\5.png)
+![Overview Tab-1](results/1.png)
+![Overview Tab-1](results/2.png)
+![Modules Tab-1](results/3.png)
+![Modules Tab-1](results/4.png)
+![Selected Modules Object](results/5.png)
+
