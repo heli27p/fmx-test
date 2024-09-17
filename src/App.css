@@ -1,38 +1,92 @@
-.App {
-  text-align: center;
+.app-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-content h1 {
+  font-size: 2rem;
+  color: #333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leftmenubar {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: #E8EBF9;
+  width: 80px;
+  height: 100vh;
+  padding: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-div {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  max-width: 50px;
+  height: auto;
+  margin: 0 auto;
+}
+
+nav {
+  flex-grow: 1;
+}
+
+.menu-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-items li {
+  margin: 20px 0;
+}
+
+.menu-items a {
+  text-decoration: none;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  fill: #333;
+  transition: fill 0.3s ease;
+}
+
+.icon:hover {
+  fill: #007BFF;
+}
+
+.profile-section {
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-section svg {
+  width: 40px;
+  height: 40px;
+  fill: #333;
+}
+
+.profile-section svg:hover {
+  fill: #007BFF;
+}
+
+.profile-section li {
+  margin-bottom: 15px;
 }
